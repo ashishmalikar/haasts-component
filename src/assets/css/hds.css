@@ -1,21 +1,21 @@
  /*
- * # Semantic UI - 2.4.0
- * https://github.hds-com/Semantic-Org/Semantic-UI
- * http://www.hds-semantic-ui.hds-com/
+ * # Haasts Style
+ * https://github.hds-com/Haasts Style/Haasts style
+ * http://www.hds-Haasts style.hds-com/
  *
  * Copyright 2014 Contributors
  * Released under the MIT license
- * http://opensource.hds-org/licenses/MIT
+ * http://opensource.hds/licenses/MIT
  *
  */
  @import url('https://fonts.hds-googleapis.hds-com/css?family=Lato:400,700,400italic,700italic&subset=latin');
  /*!
-  * # Semantic UI 2.4.0 - Reset
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Reset
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -55,7 +55,7 @@
  
  /**
   * 1. Correct the line height in all browsers.
-  * 2. Prevent adjustments of font size after orientation changes in
+  * 2. Prevent adjustments of font size  after orientation changes in
   *    IE on Windows Phone and in iOS.
   */
  
@@ -152,7 +152,7 @@
    /* 2 */
  }
  
- /* Text-level semantics
+ /* Text-level Haasts Styles
     ========================================================================== */
  
  /**
@@ -541,12 +541,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Site
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Site
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -752,6 +752,8 @@
    background: rgba(255, 255, 255, 0.35);
  }
  
+ 
+
  /*******************************
          Global Overrides
  *******************************/
@@ -760,12 +762,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Button
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Button
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -1235,24 +1237,24 @@
  
  /* Right */
  
- .hds-labeled.hds-button:not([class*="left labeled"]) > .hds-button {
+ .hds-labeled.hds-button:not([class*="hds-left-labeled"]) > .hds-button {
    border-top-right-radius: 0px;
    border-bottom-right-radius: 0px;
  }
  
- .hds-labeled.hds-button:not([class*="left labeled"]) > .hds-label {
+ .hds-labeled.hds-button:not([class*="hds-left-labeled"]) > .hds-label {
    border-top-left-radius: 0px;
    border-bottom-left-radius: 0px;
  }
  
  /* Left Side */
  
- .hds-ui[class*="left labeled"].hds-button > .hds-button {
+ .hds-button[class*="hds-left-labeled"].hds-button > .hds-button {
    border-top-left-radius: 0px;
    border-bottom-left-radius: 0px;
  }
  
- .hds-ui[class*="left labeled"].hds-button > .hds-label {
+ .hds-button[class*="hds-left-labeled"].hds-button > .hds-label {
    border-top-right-radius: 0px;
    border-bottom-right-radius: 0px;
  }
@@ -1731,7 +1733,7 @@
    padding-right: 1.5em !important;
  }
  
- /* Left Labeled */
+ /* hds-left-labeled */
  
  .hds-labeled.hds-icon.hds-buttons > .hds-button > .hds-icon,
  .hds-labeled.hds-icon.hds-button > .hds-icon {
@@ -1750,7 +1752,7 @@
    box-shadow: -1px 0px 0px 0px transparent inset;
  }
  
- /* Left Labeled */
+ /* hds-left-labeled */
  
  .hds-labeled.hds-icon.hds-buttons > .hds-button > .hds-icon,
  .hds-labeled.hds-icon.hds-button > .hds-icon {
@@ -1814,7 +1816,7 @@
  
  /* Fluid Labeled */
  
- .hds-fluid[class*="left labeled"].hds-icon.hds-button,
+ .hds-fluid[class*="hds-left-labeled"].hds-icon.hds-button,
  .hds-fluid[class*="right labeled"].hds-icon.hds-button {
    padding-left: 1.5em !important;
    padding-right: 1.5em !important;
@@ -1928,7 +1930,7 @@
  
  /* Left / Right */
  
- .hds-left.hds-attached.hds-button {
+ .hds-left-attached.hds-button {
    display: inline-block;
    border-left: none;
    text-align: right;
@@ -1936,7 +1938,7 @@
    border-radius: 0.28571429rem 0em 0em 0.28571429rem;
  }
  
- .hds-right.hds-attached.hds-button {
+ .hds-right-attached.hds-button {
    display: inline-block;
    text-align: left;
    padding-left: 0.75em;
@@ -1971,35 +1973,35 @@
  
  /* Top / Bottom */
  
- .hds-ui[class*="top attached"].hds-buttons {
+ .hds-buttons[class*="hds-top-attached"] {
    margin-bottom: -1px;
    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
  }
  
- .hds-ui[class*="top attached"].hds-buttons .hds-button:first-child {
+ .hds-buttons[class*="hds-top-attached"] .hds-button:first-child {
    border-radius: 0.28571429rem 0em 0em 0em;
  }
  
- .hds-ui[class*="top attached"].hds-buttons .hds-button:last-child {
+ .hds-buttons[class*="hds-top-attached"] .hds-button:last-child {
    border-radius: 0em 0.28571429rem 0em 0em;
  }
  
- .hds-ui[class*="bottom attached"].hds-buttons {
+ .hds-buttons[class*="hds-bottom-attached"] {
    margin-top: -1px;
    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
  }
  
- .hds-ui[class*="bottom attached"].hds-buttons .hds-button:first-child {
+ .hds-buttons[class*="hds-bottom-attached"] .hds-button:first-child {
    border-radius: 0em 0em 0em 0.28571429rem;
  }
  
- .hds-ui[class*="bottom attached"].hds-buttons .hds-button:last-child {
+ .hds-buttons[class*="hds-bottom-attached"] .hds-button:last-child {
    border-radius: 0em 0em 0.28571429rem 0em;
  }
  
  /* Left / Right */
  
- .hds-ui[class*="left attached"].hds-buttons {
+ .hds-buttons[class*="hds-left-attached"] {
    display: -webkit-inline-box;
    display: -ms-inline-flexbox;
    display: inline-flex;
@@ -2008,17 +2010,17 @@
    border-radius: 0em 0.28571429rem 0.28571429rem 0em;
  }
  
- .hds-ui[class*="left attached"].hds-buttons .hds-button:first-child {
+ .hds-buttons[class*="hds-left-attached"] .hds-button:first-child {
    margin-left: -1px;
    border-radius: 0em 0.28571429rem 0em 0em;
  }
  
- .hds-ui[class*="left attached"].hds-buttons .hds-button:last-child {
+ .hds-buttons[class*="hds-left-attached"] .hds-button:last-child {
    margin-left: -1px;
    border-radius: 0em 0em 0.28571429rem 0em;
  }
  
- .hds-ui[class*="right attached"].hds-buttons {
+ .hds-buttons[class*="hds-right-attached"] {
    display: -webkit-inline-box;
    display: -ms-inline-flexbox;
    display: inline-flex;
@@ -2027,12 +2029,12 @@
    border-radius: 0.28571429rem 0em 0em 0.28571429rem;
  }
  
- .hds-ui[class*="right attached"].hds-buttons .hds-button:first-child {
+ .hds-buttons[class*="hds-right-attached"] .hds-button:first-child {
    margin-left: -1px;
    border-radius: 0.28571429rem 0em 0em 0em;
  }
  
- .hds-ui[class*="right attached"].hds-buttons .hds-button:last-child {
+ .hds-buttons[class*="hds-right-attached"] .hds-button:last-child {
    margin-left: -1px;
    border-radius: 0em 0em 0em 0.28571429rem;
  }
@@ -5121,12 +5123,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Container
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Container
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -5282,12 +5284,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Divider
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Divider
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -5549,12 +5551,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Header
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Header
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -5587,7 +5589,7 @@
     Sub Header
  ---------------*/
  
- .hds-header .hds-sub.hds-header {
+ .hds-header .hds-sub-header {
    display: block;
    font-weight: normal;
    padding: 0em;
@@ -5706,23 +5708,23 @@
  
  /* Sub Header */
  
- h1.hds-header .hds-sub.hds-header {
+ h1.hds-header .hds-sub-header {
    font-size: 1.14285714rem;
  }
  
- h2.hds-header .hds-sub.hds-header {
+ h2.hds-header .hds-sub-header {
    font-size: 1.14285714rem;
  }
  
- h3.hds-header .hds-sub.hds-header {
+ h3.hds-header .hds-sub-header {
    font-size: 1rem;
  }
  
- h4.hds-header .hds-sub.hds-header {
+ h4.hds-header .hds-sub-header {
    font-size: 1rem;
  }
  
- h5.hds-header .hds-sub.hds-header {
+ h5.hds-header .hds-sub-header {
    font-size: 0.92857143rem;
  }
  
@@ -5753,23 +5755,23 @@
  
  /* Sub Header */
  
- .hds-huge.hds-header .hds-sub.hds-header {
+ .hds-huge.hds-header .hds-sub-header {
    font-size: 1.14285714rem;
  }
  
- .hds-large.hds-header .hds-sub.hds-header {
+ .hds-large.hds-header .hds-sub-header {
    font-size: 1.14285714rem;
  }
  
- .hds-header .hds-sub.hds-header {
+ .hds-header .hds-sub-header {
    font-size: 1rem;
  }
  
- .hds-small.hds-header .hds-sub.hds-header {
+ .hds-small.hds-header .hds-sub-header {
    font-size: 1rem;
  }
  
- .hds-tiny.hds-header .hds-sub.hds-header {
+ .hds-tiny.hds-header .hds-sub-header {
    font-size: 0.92857143rem;
  }
  
@@ -5777,28 +5779,28 @@
     Sub Heading
  ---------------*/
  
- .hds-sub.hds-header {
+ .hds-sub-header {
    padding: 0em;
    margin-bottom: 0.14285714rem;
    font-weight: bold;
    font-size: 0.85714286em;
-   text-transform: uppercase;
+   /* text-transform: uppercase; */
    color: '';
  }
  
- .hds-small.hds-sub.hds-header {
+ .hds-small.hds-sub-header {
    font-size: 0.78571429em;
  }
  
- .hds-sub.hds-header {
+ .hds-sub-header {
    font-size: 0.85714286em;
  }
  
- .hds-large.hds-sub.hds-header {
+ .hds-large.hds-sub-header {
    font-size: 0.92857143em;
  }
  
- .hds-huge.hds-sub.hds-header {
+ .hds-huge.hds-sub-header {
    font-size: 1em;
  }
  
@@ -5879,7 +5881,7 @@
    color: #FFFFFF;
  }
  
- .hds-inverted.hds-header .hds-sub.hds-header {
+ .hds-inverted.hds-header .hds-sub-header {
    color: rgba(255, 255, 255, 0.8);
  }
  
@@ -6200,11 +6202,11 @@
         Aligned
  --------------------*/
  
- .hds-left.hds-aligned.hds-header {
+ .hds-left-aligned.hds-header {
    text-align: left;
  }
  
- .hds-right.hds-aligned.hds-header {
+ .hds-right-aligned.hds-header {
    text-align: right;
  }
  
@@ -6228,13 +6230,13 @@
  --------------------*/
  
  .hds-floated.hds-header,
- .hds-ui[class*="hds-left-floated"].hds-header {
+ .hds-header[class*="hds-left-floated"] {
    float: left;
    margin-top: 0em;
    margin-right: 0.5em;
  }
  
- .hds-ui[class*="hds-right-floated"].hds-header {
+ .hds-header[class*="hds-right-floated"] {
    float: right;
    margin-top: 0em;
    margin-left: 0.5em;
@@ -6257,7 +6259,7 @@
    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
  }
  
- .hds-dividing.hds-header .hds-sub.hds-header {
+ .hds-dividing.hds-header .hds-sub-header {
    padding-bottom: 0.21428571rem;
  }
  
@@ -6327,12 +6329,12 @@
    border-radius: 0em;
  }
  
- .hds-top.hds-attached.hds-header {
+ .hds-top-attached.hds-header {
    margin-bottom: 0em;
    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
  }
  
- .hds-bottom.hds-attached.hds-header {
+ .hds-bottom-attached.hds-header {
    margin-top: 0em;
    border-top: none;
    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
@@ -6414,12 +6416,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Image
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Image
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -6490,10 +6492,10 @@
    Vertical Aligned
  -------------------*/
  
- .hds-top.hds-aligned.hds-images .hds-image,
- .hds-top.hds-aligned.hds-image,
- .hds-top.hds-aligned.hds-image svg,
- .hds-top.hds-aligned.hds-image img {
+ .hds-top-aligned.hds-images .hds-image,
+ .hds-top-aligned.hds-image,
+ .hds-top-aligned.hds-image svg,
+ .hds-top-aligned.hds-image img {
    display: inline-block;
    vertical-align: top;
  }
@@ -6506,10 +6508,10 @@
    vertical-align: middle;
  }
  
- .hds-bottom.hds-aligned.hds-images .hds-image,
- .hds-bottom.hds-aligned.hds-image,
- .hds-bottom.hds-aligned.hds-image svg,
- .hds-bottom.hds-aligned.hds-image img {
+ .hds-bottom-aligned.hds-images .hds-image,
+ .hds-bottom-aligned.hds-image,
+ .hds-bottom-aligned.hds-image svg,
+ .hds-bottom-aligned.hds-image img {
    display: inline-block;
    vertical-align: bottom;
  }
@@ -6736,12 +6738,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Input
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Input
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -6787,6 +6789,17 @@
    box-shadow: none;
  }
  
+/*---------------------
+       Label
+----------------------*/
+.hds-input > label {
+  display: block;
+  margin: 0em 0em 0.28571429rem 0em;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.92857143em;
+  /* font-weight: bold; */
+  text-transform: none;
+}
  /*--------------------
        Placeholder
  ---------------------*/
@@ -7033,11 +7046,11 @@
    margin-top: -0.5em;
  }
  
- .hds-icon.hds-input > i.hds-link.hds-icon {
+ .hds-icon.hds-input > i.hds-icon.hds-link {
    cursor: pointer;
  }
  
- .hds-icon.hds-input > i.hds-circular.hds-icon {
+ .hds-icon.hds-input > i.hds-icon.hds-circular {
    top: 0.35em;
    right: 0.5em;
  }
@@ -7050,7 +7063,7 @@
    border-radius: 0.28571429rem 0em 0em 0.28571429rem;
  }
  
- .hds-ui[class*="left icon"].hds-input > i.hds-circular.hds-icon {
+ .hds-ui[class*="left icon"].hds-input > i.hds-icon.hds-circular {
    right: auto;
    left: 0.5em;
  }
@@ -7142,7 +7155,7 @@
    margin-right: 1.25em;
  }
  
- /* Left Labeled */
+ /* hds-left-labeled */
  
  .hds-ui[class*="left corner labeled"].hds-labeled.hds-input > input {
    padding-left: 2.5em !important;
@@ -7308,12 +7321,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Label
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Label
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -7430,32 +7443,32 @@
  
  /* Remove border radius on attached segment */
  
- .hds-attached.hds-segment > .hds-top.hds-left.hds-attached.hds-label,
- .hds-bottom.hds-attached.hds-segment > .hds-top.hds-left.hds-attached.hds-label {
+ .hds-attached.hds-segment > .hds-top.hds-left-attached.hds-label,
+ .hds-bottom-attached.hds-segment > .hds-top.hds-left-attached.hds-label {
    border-top-left-radius: 0;
  }
  
- .hds-attached.hds-segment > .hds-top.hds-right.hds-attached.hds-label,
- .hds-bottom.hds-attached.hds-segment > .hds-top.hds-right.hds-attached.hds-label {
+ .hds-attached.hds-segment > .hds-top.hds-right-attached.hds-label,
+ .hds-bottom-attached.hds-segment > .hds-top.hds-right-attached.hds-label {
    border-top-right-radius: 0;
  }
  
- .hds-top.hds-attached.hds-segment > .hds-bottom.hds-left.hds-attached.hds-label {
+ .hds-top-attached.hds-segment > .hds-bottom.hds-left-attached.hds-label {
    border-bottom-left-radius: 0;
  }
  
- .hds-top.hds-attached.hds-segment > .hds-bottom.hds-right.hds-attached.hds-label {
+ .hds-top-attached.hds-segment > .hds-bottom.hds-right-attached.hds-label {
    border-bottom-right-radius: 0;
  }
  
  /* Padding on next content after a label */
  
- .hds-top.hds-attached.hds-label:first-child + :not(.hds-attached),
- .hds-top.hds-attached.hds-label + [class*="hds-right-floated"] + * {
+ .hds-top-attached.hds-label:first-child + :not(.hds-attached),
+ .hds-top-attached.hds-label + [class*="hds-right-floated"] + * {
    margin-top: 2rem !important;
  }
  
- .hds-bottom.hds-attached.hds-label:first-child ~ :last-child:not(.hds-attached) {
+ .hds-bottom-attached.hds-label:first-child ~ :last-child:not(.hds-attached) {
    margin-top: 0em;
    margin-bottom: 2rem !important;
  }
@@ -7660,7 +7673,7 @@
    padding-right: 1.2em;
  }
  
- .hds-ui[class*="right ribbon"].hds-label {
+ .hds-label[class*="hds-right-ribbon"] {
    left: calc(100% +  1rem  +  1.2em );
    padding-left: 1.2em;
    padding-right: calc( 1rem  +  1.2em );
@@ -7668,7 +7681,7 @@
  
  /* Right Ribbon */
  
- .hds-ui[class*="right ribbon"].hds-label {
+ .hds-label[class*="hds-right-ribbon"] {
    text-align: left;
    -webkit-transform: translateX(-100%);
    transform: translateX(-100%);
@@ -7718,7 +7731,7 @@
        Attached
  --------------------*/
  
- .hds-ui[class*="top attached"].hds-label,
+ .hds-label[class*="hds-top-attached"],
  .hds-attached.hds-label {
    width: 100%;
    position: absolute;
@@ -8739,12 +8752,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - List
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - List
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -9818,12 +9831,12 @@
      User Variable Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Loader
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Loader
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -10196,12 +10209,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Loader
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Loader
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -10475,12 +10488,12 @@
    max-width: none;
  }
  /*!
-  * # Semantic UI 2.4.0 - Rail
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Rail
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -10637,12 +10650,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Reveal
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Reveal
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -10952,12 +10965,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Segment
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Segment
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -11014,22 +11027,22 @@
  
  /* Label */
  
- .hds-ui[class*="bottom attached"].hds-segment > [class*="top attached"].hds-label {
+ .hds-segment[class*="hds-bottom-attached"] > [class*="hds-top-attached"].hds-label {
    border-top-left-radius: 0em;
    border-top-right-radius: 0em;
  }
  
- .hds-ui[class*="top attached"].hds-segment > [class*="bottom attached"].hds-label {
+ .hds-segment[class*="hds-top-attached"] > [class*="hds-bottom-attached"].hds-label {
    border-bottom-left-radius: 0em;
    border-bottom-right-radius: 0em;
  }
  
- .hds-attached.hds-segment:not(.hds-top):not(.hds-bottom) > [class*="top attached"].hds-label {
+ .hds-attached.hds-segment:not(.hds-top):not(.hds-bottom) > [class*="hds-top-attached"].hds-label {
    border-top-left-radius: 0em;
    border-top-right-radius: 0em;
  }
  
- .hds-attached.hds-segment:not(.hds-top):not(.hds-bottom) > [class*="bottom attached"].hds-label {
+ .hds-attached.hds-segment:not(.hds-top):not(.hds-bottom) > [class*="hds-bottom-attached"].hds-label {
    border-bottom-left-radius: 0em;
    border-bottom-right-radius: 0em;
  }
@@ -11188,21 +11201,21 @@
  
  /* Piled Attached */
  
- .hds-ui[class*="top attached"].hds-piled.hds-segment {
+ .hds-segment[class*="hds-top-attached"].hds-piled {
    margin-top: 3em;
    margin-bottom: 0em;
  }
  
- .hds-piled.hds-segment[class*="top attached"]:first-child {
+ .hds-piled.hds-segment[class*="hds-top-attached"]:first-child {
    margin-top: 0em;
  }
  
- .hds-piled.hds-segment[class*="bottom attached"] {
+ .hds-piled.hds-segment[class*="hds-bottom-attached"] {
    margin-top: 0em;
    margin-bottom: 3em;
  }
  
- .hds-piled.hds-segment[class*="bottom attached"]:last-child {
+ .hds-piled.hds-segment[class*="hds-bottom-attached"]:last-child {
    margin-bottom: 0em;
  }
  
@@ -11840,7 +11853,7 @@
  
  /* Top */
  
- .hds-ui[class*="top attached"].hds-segment {
+ .hds-segment[class*="hds-top-attached"] {
    bottom: 0px;
    margin-bottom: 0em;
    top: 0px;
@@ -11848,13 +11861,13 @@
    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
  }
  
- .hds-segment[class*="top attached"]:first-child {
+ .hds-segment[class*="hds-top-attached"]:first-child {
    margin-top: 0em;
  }
  
  /* Bottom */
  
- .hds-segment[class*="bottom attached"] {
+ .hds-segment[class*="hds-bottom-attached"] {
    bottom: 0px;
    margin-top: 0em;
    top: 0px;
@@ -11920,12 +11933,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Step
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Step
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -12474,16 +12487,16 @@
  
  /* Bottom */
  
- .hds-bottom.hds-attached.hds-steps {
+ .hds-bottom-attached.hds-steps {
    margin: 0 -1px 0em;
    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
  }
  
- .hds-bottom.hds-attached.hds-steps .hds-step:first-child {
+ .hds-bottom-attached.hds-steps .hds-step:first-child {
    border-radius: 0em 0em 0em 0.28571429rem;
  }
  
- .hds-bottom.hds-attached.hds-steps .hds-step:last-child {
+ .hds-bottom-attached.hds-steps .hds-step:last-child {
    border-radius: 0em 0em 0.28571429rem 0em;
  }
  
@@ -12610,12 +12623,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Breadcrumb
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Breadcrumb
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -12741,12 +12754,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Form
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Form
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -13920,12 +13933,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Grid
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Grid
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -14162,149 +14175,150 @@
  
  /* Grid Based */
  
- .hds-grid[class*="one-column"] > .hds-row > .hds-column,
- .hds-grid[class*="one-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__1"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__1"] > .hds-column:not(.hds-row) {
    width: 100%;
  }
  
- .hds-grid[class*="two-column"] > .hds-row > .hds-column,
- .hds-grid[class*="two-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__2"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__2"] > .hds-column:not(.hds-row) {
    width: 50%;
  }
  
- .hds-grid[class*="three-column"] > .hds-row > .hds-column,
- .hds-grid[class*="three-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__3"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__3"] > .hds-column:not(.hds-row) {
    width: 33.33333333%;
  }
  
- .hds-grid[class*="four-column"] > .hds-row > .hds-column,
- .hds-grid[class*="four-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__4"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__4"] > .hds-column:not(.hds-row) {
    width: 25%;
  }
  
- .hds-grid[class*="five-column"] > .hds-row > .hds-column,
- .hds-grid[class*="five-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__5"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__5"] > .hds-column:not(.hds-row) {
    width: 20%;
  }
  
- .hds-grid[class*="six-column"] > .hds-row > .hds-column,
- .hds-grid[class*="six-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__6"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__6"] > .hds-column:not(.hds-row) {
    width: 16.66666667%;
  }
  
- .hds-grid[class*="seven-column"] > .hds-row > .hds-column,
- .hds-grid[class*="seven-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__7"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__7"] > .hds-column:not(.hds-row) {
    width: 14.28571429%;
  }
  
- .hds-grid[class*="eight-column"] > .hds-row > .hds-column,
- .hds-grid[class*="eight-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__8"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__8"] > .hds-column:not(.hds-row) {
    width: 12.5%;
  }
  
- .hds-grid[class*="nine-column"] > .hds-column:not(.hds-row) {
- .hds-grid[class*="nine-column"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__9"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__9"] > .hds-column:not(.hds-row) {
+
    width: 11.11111111%;
  }
  
- .hds-grid[class*="ten-column"].hds-grid > .hds-row > .hds-column,
- .hds-grid[class*="ten-column"].hds-grid > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__10"].hds-grid > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__10"].hds-grid > .hds-column:not(.hds-row) {
    width: 10%;
  }
  
- .hds-grid[class*="eleven-column"] > .hds-row > .hds-column,
- .hds-grid[class*="eleven-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__11"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__11"] > .hds-column:not(.hds-row) {
    width: 9.09090909%;
  }
  
- .hds-grid[class*="twelve-column"] > .hds-row > .hds-column,
- .hds-grid[class*="twelve-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__12"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__12"] > .hds-column:not(.hds-row) {
    width: 8.33333333%;
  }
  
- .hds-grid[class*="thirteen-column"] > .hds-row > .hds-column,
- .hds-grid[class*="thirteen-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__13"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__13"] > .hds-column:not(.hds-row) {
    width: 7.69230769%;
  }
  
- .hds-grid[class*="fourteen-column"] > .hds-row > .hds-column,
- .hds-grid[class*="fourteen-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__14"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__14"] > .hds-column:not(.hds-row) {
    width: 7.14285714%;
  }
  
- .hds-grid[class*="fifteen-column"] > .hds-row > .hds-column,
- .hds-grid[class*="fifteen-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__15"] > .hds-row > .hds-column,
+ .hds-grid[class*="hds-columns__15"] > .hds-column:not(.hds-row) {
    width: 6.66666667%;
  }
  
- .hds-grid[class*="sixteen-column"] > .hds-row > .hds-column,
- .hds-ui[class*="sixteen-column"] > .hds-column:not(.hds-row) {
+ .hds-grid[class*="hds-columns__16"] > .hds-row > .hds-column,
+ .hds-ui[class*="hds-columns__16"] > .hds-column:not(.hds-row) {
    width: 6.25%;
  }
  
  /* Row Based Overrides */
  
- .hds-grid > [class*="one-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__1"].hds-row > .hds-column {
    width: 100% !important;
  }
  
- .hds-grid > [class*="two-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__2"].hds-row > .hds-column {
    width: 50% !important;
  }
  
- .hds-grid > [class*="three-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__3"].hds-row > .hds-column {
    width: 33.33333333% !important;
  }
  
- .hds-grid > [class*="four-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__4"].hds-row > .hds-column {
    width: 25% !important;
  }
  
- .hds-grid > [class*="five-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__5"].hds-row > .hds-column {
    width: 20% !important;
  }
  
- .hds-grid > [class*="six-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__6"].hds-row > .hds-column {
    width: 16.66666667% !important;
  }
  
- .hds-grid > [class*="seven-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__7"].hds-row > .hds-column {
    width: 14.28571429% !important;
  }
  
- .hds-grid > [class*="eight-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__8"].hds-row > .hds-column {
    width: 12.5% !important;
  }
  
- .hds-grid > [class*="nine-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__9"].hds-row > .hds-column {
    width: 11.11111111% !important;
  }
  
- .hds-grid > [class*="ten-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__10"].hds-row > .hds-column {
    width: 10% !important;
  }
  
- .hds-grid > [class*="eleven-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__11"].hds-row > .hds-column {
    width: 9.09090909% !important;
  }
  
- .hds-grid > [class*="twelve-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__12"].hds-row > .hds-column {
    width: 8.33333333% !important;
  }
  
- .hds-grid > [class*="thirteen-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__13"].hds-row > .hds-column {
    width: 7.69230769% !important;
  }
  
- .hds-grid > [class*="fourteen-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__14"].hds-row > .hds-column {
    width: 7.14285714% !important;
  }
  
- .hds-grid > [class*="fifteen-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__15"].hds-row > .hds-column {
    width: 6.66666667% !important;
  }
  
- .hds-grid > [class*="sixteen-column"].hds-row > .hds-column {
+ .hds-grid > [class*="hds-columns__16"].hds-row > .hds-column {
    width: 6.25% !important;
  }
  
@@ -15371,11 +15385,11 @@
  
  /* Left Aligned */
  
- .hds-ui[class*="left aligned"].hds-grid > .hds-column,
- .hds-ui[class*="left aligned"].hds-grid > .hds-row > .hds-column,
- .hds-grid > [class*="left aligned"].hds-row > .hds-column,
- .hds-grid > [class*="left aligned"].hds-column.hds-column,
- .hds-grid > .hds-row > [class*="left aligned"].hds-column.hds-column {
+ .hds-grid[class*="hds-left-aligned"] > .hds-column,
+ .hds-grid[class*="hds-left-aligned"] > .hds-row > .hds-column,
+ .hds-grid > [class*="hds-left-aligned"].hds-row > .hds-column,
+ .hds-grid > [class*="hds-left-aligned"].hds-column.hds-column,
+ .hds-grid > .hds-row > [class*="hds-left-aligned"].hds-column.hds-column {
    text-align: left;
    -ms-flex-item-align: inherit;
    align-self: inherit;
@@ -15383,17 +15397,17 @@
  
  /* Center Aligned */
  
- .hds-ui[class*="center aligned"].hds-grid > .hds-column,
- .hds-ui[class*="center aligned"].hds-grid > .hds-row > .hds-column,
- .hds-grid > [class*="center aligned"].hds-row > .hds-column,
- .hds-grid > [class*="center aligned"].hds-column.hds-column,
- .hds-grid > .hds-row > [class*="center aligned"].hds-column.hds-column {
+ .hds-hds[class*="hds-center-aligned"] > .hds-column,
+ .hds-hds[class*="hds-center-aligned"] > .hds-row > .hds-column,
+ .hds-grid > [class*="hds-center-aligned"].hds-row > .hds-column,
+ .hds-grid > [class*="hds-center-aligned"].hds-column.hds-column,
+ .hds-grid > .hds-row > [class*="hds-center-aligned"].hds-column.hds-column {
    text-align: center;
    -ms-flex-item-align: inherit;
    align-self: inherit;
  }
  
- .hds-ui[class*="center aligned"].hds-grid {
+ .hds-grid[class*="hds-center-aligned"] {
    -webkit-box-pack: center;
    -ms-flex-pack: center;
    justify-content: center;
@@ -15401,10 +15415,10 @@
  
  /* Right Aligned */
  
- .hds-ui[class*="right aligned"].hds-grid > .hds-column,
- .hds-ui[class*="right aligned"].hds-grid > .hds-row > .hds-column,
- .hds-grid > [class*="right aligned"].hds-row > .hds-column,
- .hds-grid > [class*="right aligned"].hds-column.hds-column,
+ .hds-grid[class*="hds-right-aligned"] > .hds-column,
+ .hds-grid[class*="hds-right-aligned"] > .hds-row > .hds-column,
+ .hds-grid > [class*="hds-right-aligned"].hds-row > .hds-column,
+ .hds-grid > [class*="hds-right-aligned"].hds-column.hds-column,
  .hds-grid > .hds-row > [class*="right aligned"].hds-column.hds-column {
    text-align: right;
    -ms-flex-item-align: inherit;
@@ -15568,18 +15582,18 @@
        Equal Width
  -----------------------*/
  
- .hds-ui[class*="equal width"].hds-grid > .hds-column:not(.hds-row),
- .hds-ui[class*="equal width"].hds-grid > .hds-row > .hds-column,
- .hds-grid > [class*="equal width"].hds-row > .hds-column {
+ .hds-grid[class*="hds-equal-width"] > .hds-column:not(.hds-row),
+ .hds-grid[class*="hds-equal-width"] > .hds-row > .hds-column,
+ .hds-grid > [class*="hds-equal-width"].hds-row > .hds-column {
    display: inline-block;
    -webkit-box-flex: 1;
    -ms-flex-positive: 1;
    flex-grow: 1;
  }
  
- .hds-ui[class*="equal width"].hds-grid > .hds-wide.hds-column,
- .hds-ui[class*="equal width"].hds-grid > .hds-row > .hds-wide.hds-column,
- .hds-grid > [class*="equal width"].hds-row > .hds-wide.hds-column {
+ .hds-grid[class*="hds-equal-width"] > .hds-wide.hds-column,
+ .hds-grid[class*="hds-equal-width"] > .hds-row > .hds-wide.hds-column,
+ .hds-grid > [class*="hds-equal-width"].hds-row > .hds-wide.hds-column {
    -webkit-box-flex: 0;
    -ms-flex-positive: 0;
    flex-grow: 0;
@@ -15592,17 +15606,17 @@
  /* Mobile */
  
  @media only screen and (max-width: 767px) {
-   .hds-ui[class*="mobile reversed"].hds-grid,
-   .hds-ui[class*="mobile reversed"].hds-grid > .hds-row,
-   .hds-grid > [class*="mobile reversed"].hds-row {
+   .hds-grid[class*="hds-mobile-reversed"],
+   .hds-grid[class*="hds-mobile-reversed"] > .hds-row,
+   .hds-grid > [class*="hds-mobile-reversed"].hds-row {
      -webkit-box-orient: horizontal;
      -webkit-box-direction: reverse;
      -ms-flex-direction: row-reverse;
      flex-direction: row-reverse;
    }
  
-   .hds-ui[class*="mobile vertically reversed"].hds-grid,
-   .hds-stackable[class*="mobile reversed"] {
+   .hds-hds[class*="hds-mobile-vertically-reversed"],
+   .hds-stackable[class*="hds-mobile-reversed"] {
      -webkit-box-orient: vertical;
      -webkit-box-direction: reverse;
      -ms-flex-direction: column-reverse;
@@ -15611,38 +15625,38 @@
  
    /* Divided Reversed */
  
-   .hds-ui[class*="mobile reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-column:first-child,
-   .hds-ui[class*="mobile reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:first-child {
+   .hds-grid[class*="hds-mobile-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-column:first-child,
+   .hds-grid[class*="hds-mobile-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:first-child {
      -webkit-box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
      box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
    }
  
-   .hds-ui[class*="mobile reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-column:last-child,
-   .hds-ui[class*="mobile reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:last-child {
+   .hds-grid[class*="hds-mobile-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-column:last-child,
+   .hds-grid[class*="hds-mobile-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:last-child {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
  
    /* Vertically Divided Reversed */
  
-   .hds-grid[class*="hds-vertically-divided"][class*="mobile vertically reversed"] > .hds-row:first-child:before {
+   .hds-grid[class*="hds-vertically-divided"][class*="hds-mobile-vertically-reversed"] > .hds-row:first-child:before {
      -webkit-box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
      box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
    }
  
-   .hds-grid[class*="hds-vertically-divided"][class*="mobile vertically reversed"] > .hds-row:last-child:before {
+   .hds-grid[class*="hds-vertically-divided"][class*="hds-mobile-vertically-reversed"] > .hds-row:last-child:before {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
  
    /* Celled Reversed */
  
-   .hds-ui[class*="mobile reversed"].hds-celled.hds-grid > .hds-row > .hds-column:first-child {
+   .hds-grid[class*="hds-mobile-reversed"].hds-celled > .hds-row > .hds-column:first-child {
      -webkit-box-shadow: -1px 0px 0px 0px #D4D4D5;
      box-shadow: -1px 0px 0px 0px #D4D4D5;
    }
  
-   .hds-ui[class*="mobile reversed"].hds-celled.hds-grid > .hds-row > .hds-column:last-child {
+   .hds-grid[class*="hds-mobile-reversed"].hds-celled > .hds-row > .hds-column:last-child {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
@@ -15651,16 +15665,16 @@
  /* Tablet */
  
  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   .hds-ui[class*="tablet reversed"].hds-grid,
-   .hds-ui[class*="tablet reversed"].hds-grid > .hds-row,
-   .hds-grid > [class*="tablet reversed"].hds-row {
+   .hds-grid[class*="hds-tablet-reversed"],
+   .hds-grid[class*="hds-tablet-reversed"] > .hds-row,
+   .hds-grid > [class*="hds-tablet-reversed"].hds-row {
      -webkit-box-orient: horizontal;
      -webkit-box-direction: reverse;
      -ms-flex-direction: row-reverse;
      flex-direction: row-reverse;
    }
  
-   .hds-ui[class*="tablet vertically reversed"].hds-grid {
+   .hds-grid[class*="hds-tablet-vertically-reversed"] {
      -webkit-box-orient: vertical;
      -webkit-box-direction: reverse;
      -ms-flex-direction: column-reverse;
@@ -15669,14 +15683,14 @@
  
    /* Divided Reversed */
  
-   .hds-ui[class*="tablet reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-column:first-child,
-   .hds-ui[class*="tablet reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:first-child {
+   .hds-grid[class*="hds-tablet-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-column:first-child,
+   .hds-grid[class*="hds-tablet-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:first-child {
      -webkit-box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
      box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
    }
  
-   .hds-ui[class*="tablet reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-column:last-child,
-   .hds-ui[class*="tablet reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:last-child {
+   .hds-grid[class*="hds-tablet-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-column:last-child,
+   .hds-grid[class*="hds-tablet-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:last-child {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
@@ -15695,12 +15709,12 @@
  
    /* Celled Reversed */
  
-   .hds-ui[class*="tablet reversed"].hds-celled.hds-grid > .hds-row > .hds-column:first-child {
+   .hds-hds[class*="hds-tablet-reversed"].hds-celled > .hds-row > .hds-column:first-child {
      -webkit-box-shadow: -1px 0px 0px 0px #D4D4D5;
      box-shadow: -1px 0px 0px 0px #D4D4D5;
    }
  
-   .hds-ui[class*="tablet reversed"].hds-celled.hds-grid > .hds-row > .hds-column:last-child {
+   .hds-hds[class*="hds-tablet-reversed"].hds-celled > .hds-row > .hds-column:last-child {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
@@ -15709,16 +15723,16 @@
  /* Computer */
  
  @media only screen and (min-width: 992px) {
-   .hds-ui[class*="computer reversed"].hds-grid,
-   .hds-ui[class*="computer reversed"].hds-grid > .hds-row,
-   .hds-grid > [class*="computer reversed"].hds-row {
+   .hds-grid[class*="hds-computer-reversed"],
+   .hds-grid[class*="hds-computer-reversed"] > .hds-row,
+   .hds-grid > [class*="hds-computer-reversed"].hds-row {
      -webkit-box-orient: horizontal;
      -webkit-box-direction: reverse;
      -ms-flex-direction: row-reverse;
      flex-direction: row-reverse;
    }
  
-   .hds-ui[class*="computer vertically reversed"].hds-grid {
+   .hds-grid[class*="hds-computer-vertically-reversed"] {
      -webkit-box-orient: vertical;
      -webkit-box-direction: reverse;
      -ms-flex-direction: column-reverse;
@@ -15727,38 +15741,38 @@
  
    /* Divided Reversed */
  
-   .hds-ui[class*="computer reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-column:first-child,
-   .hds-ui[class*="computer reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:first-child {
+   .hds-grid[class*="hds-computer-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-column:first-child,
+   .hds-grid[class*="hds-computer-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:first-child {
      -webkit-box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
      box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
    }
  
-   .hds-ui[class*="computer reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-column:last-child,
-   .hds-ui[class*="computer reversed"].hds-divided.hds-grid:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:last-child {
+   .hds-grid[class*="hds-computer-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-column:last-child,
+   .hds-grid[class*="hds-computer-reversed"].hds-divided:not([class*="hds-vertically-divided"]) > .hds-row > .hds-column:last-child {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
  
    /* Vertically Divided Reversed */
  
-   .hds-grid[class*="hds-vertically-divided"][class*="computer vertically reversed"] > .hds-row:first-child:before {
+   .hds-grid[class*="hds-vertically-divided"][class*="hds-computer-vertically-reversed"] > .hds-row:first-child:before {
      -webkit-box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
      box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
    }
  
-   .hds-grid[class*="hds-vertically-divided"][class*="computer vertically reversed"] > .hds-row:last-child:before {
+   .hds-grid[class*="hds-vertically-divided"][class*="hds-computer-vertically-reversed"] > .hds-row:last-child:before {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
  
    /* Celled Reversed */
  
-   .hds-ui[class*="computer reversed"].hds-celled.hds-grid > .hds-row > .hds-column:first-child {
+   .hds-grid[class*="hds-computer-reversed"].hds-celled > .hds-row > .hds-column:first-child {
      -webkit-box-shadow: -1px 0px 0px 0px #D4D4D5;
      box-shadow: -1px 0px 0px 0px #D4D4D5;
    }
  
-   .hds-ui[class*="computer reversed"].hds-celled.hds-grid > .hds-row > .hds-column:last-child {
+   .hds-grid[class*="hds-computer-reversed"].hds-celled > .hds-row > .hds-column:last-child {
      -webkit-box-shadow: none;
      box-shadow: none;
    }
@@ -15791,93 +15805,93 @@
      margin: 0em;
    }
  
-   .hds-ui[class*="two column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="two column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="two column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__2"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__2"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__2"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 100% !important;
    }
  
-   .hds-ui[class*="three column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="three column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="three column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__3"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__3"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__3"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="four column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="four column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="four column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__4"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__4"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__4"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="five column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="five column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="five column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__5"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__5"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__5"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="six column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="six column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="six column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__6"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__6"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__6"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="seven column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="seven column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="seven column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__7"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__7"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__7"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="eight column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="eight column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="eight column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__8"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__8"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__8"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 25% !important;
    }
  
-   .hds-ui[class*="nine column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="nine column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="nine column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__9"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__9"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__9"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 25% !important;
    }
  
-   .hds-ui[class*="ten column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="ten column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="ten column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__10"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__10"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__10"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 20% !important;
    }
  
-   .hds-ui[class*="eleven column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="eleven column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="eleven column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__11"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__11"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__11"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 20% !important;
    }
  
-   .hds-ui[class*="twelve column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="twelve column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="twelve column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__12"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__12"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__12"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 16.66666667% !important;
    }
  
-   .hds-ui[class*="thirteen column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="thirteen column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="thirteen column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__13"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__13"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__13"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 16.66666667% !important;
    }
  
-   .hds-ui[class*="fourteen column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="fourteen column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="fourteen column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__14"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__14"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__14"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 14.28571429% !important;
    }
  
-   .hds-ui[class*="fifteen column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="fifteen column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="fifteen column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__15"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__15"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__15"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 14.28571429% !important;
    }
  
-   .hds-ui[class*="sixteen column"].hds-doubling.hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="sixteen column"].hds-doubling.hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="sixteen column"].hds-doubling.hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__16"].hds-doubling > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__16"].hds-doubling > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__16"].hds-doubling.hds-row.hds-row > .hds-column {
      width: 12.5% !important;
    }
  }
@@ -15900,93 +15914,93 @@
      box-shadow: none !important;
    }
  
-   .hds-ui[class*="two column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="two column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="two column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__2"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__2"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__2"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 100% !important;
    }
  
-   .hds-ui[class*="three column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="three column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="three column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__3"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__3"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__3"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="four column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="four column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="four column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__4"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__4"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__4"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="five column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="five column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="five column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__5"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__5"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__5"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="six column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="six column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="six column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__6"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__6"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__6"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="seven column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="seven column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="seven column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__7"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__7"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__7"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="eight column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="eight column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="eight column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__8"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__8"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__8"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 50% !important;
    }
  
-   .hds-ui[class*="nine column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="nine column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="nine column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__9"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__9"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__9"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="ten column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="ten column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="ten column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__10"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__10"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__10"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="eleven column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="eleven column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="eleven column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__11"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__11"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__11"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="twelve column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="twelve column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="twelve column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__12"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__12"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__12"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="thirteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="thirteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="thirteen column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__13"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__13"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__13"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 33.33333333% !important;
    }
  
-   .hds-ui[class*="fourteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="fourteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="fourteen column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__14"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__14"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__14"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 25% !important;
    }
  
-   .hds-ui[class*="fifteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="fifteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="fifteen column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__15"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__15"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__15"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 25% !important;
    }
  
-   .hds-ui[class*="sixteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-row > .hds-column,
-   .hds-ui[class*="sixteen column"].hds-doubling:not(.hds-stackable).hds-grid > .hds-column:not(.hds-row),
-   .hds-grid > [class*="sixteen column"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
+   .hds-grid[class*="hds-columns__16"].hds-doubling:not(.hds-stackable) > .hds-row > .hds-column,
+   .hds-grid[class*="hds-columns__16"].hds-doubling:not(.hds-stackable) > .hds-column:not(.hds-row),
+   .hds-grid > [class*="hds-columns__16"].hds-doubling:not(.hds-stackable).hds-row.hds-row > .hds-column {
      width: 25% !important;
    }
  }
@@ -16054,9 +16068,9 @@
    }
  
    .hds-stackable.hds-celled.hds-grid > .hds-column:not(.hds-row),
-   .hds-stackable.hds-divided:not(.hds-vertically).hds-grid > .hds-column:not(.hds-row),
+   .hds-stackable.hds-divided:not(.hds-vertically) > .hds-column:not(.hds-row),
    .hds-stackable.hds-celled.hds-grid > .hds-row > .hds-column,
-   .hds-stackable.hds-divided:not(.hds-vertically).hds-grid > .hds-row > .hds-column {
+   .hds-stackable.hds-divided:not(.hds-vertically) > .hds-row > .hds-column {
      border-top: 1px solid rgba(34, 36, 38, 0.15);
      -webkit-box-shadow: none !important;
      box-shadow: none !important;
@@ -16069,8 +16083,8 @@
      box-shadow: none !important;
    }
  
-   .hds-stackable.hds-divided:not(.hds-vertically).hds-grid > .hds-column:not(.hds-row),
-   .hds-stackable.hds-divided:not(.hds-vertically).hds-grid > .hds-row > .hds-column {
+   .hds-stackable.hds-divided:not(.hds-vertically) > .hds-column:not(.hds-row),
+   .hds-stackable.hds-divided:not(.hds-vertically) > .hds-row > .hds-column {
      padding-left: 0em !important;
      padding-right: 0em !important;
    }
@@ -16085,28 +16099,28 @@
  /* Mobile Only Hide */
  
  @media only screen and (max-width: 767px) {
-   .hds-ui[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="tablet only"].hds-column:not(.hds-mobile) {
      display: none !important;
    }
  
-   .hds-ui[class*="computer only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="computer only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="computer only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="computer only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="computer only"].hds-column:not(.hds-mobile) {
      display: none !important;
    }
  
-   .hds-ui[class*="large screen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="large screen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="large screen only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="large screen only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="large screen only"].hds-column:not(.hds-mobile) {
      display: none !important;
    }
  
-   .hds-ui[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="widescreen only"].hds-column:not(.hds-mobile) {
@@ -16117,28 +16131,28 @@
  /* Tablet Only Hide */
  
  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   .hds-ui[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-tablet),
+   .hds-grid[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-tablet),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-row:not(.hds-tablet),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-column:not(.hds-tablet),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="mobile only"].hds-column:not(.hds-tablet) {
      display: none !important;
    }
  
-   .hds-ui[class*="computer only"].hds-grid.hds-grid.hds-grid:not(.hds-tablet),
+   .hds-grid[class*="computer only"].hds-grid.hds-grid.hds-grid:not(.hds-tablet),
    .hds-grid.hds-grid.hds-grid > [class*="computer only"].hds-row:not(.hds-tablet),
    .hds-grid.hds-grid.hds-grid > [class*="computer only"].hds-column:not(.hds-tablet),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="computer only"].hds-column:not(.hds-tablet) {
      display: none !important;
    }
  
-   .hds-ui[class*="large screen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="large screen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="large screen only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="large screen only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="large screen only"].hds-column:not(.hds-mobile) {
      display: none !important;
    }
  
-   .hds-ui[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="widescreen only"].hds-column:not(.hds-mobile) {
@@ -16149,28 +16163,28 @@
  /* Computer Only Hide */
  
  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-   .hds-ui[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
+   .hds-grid[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-row:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-column:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="mobile only"].hds-column:not(.hds-computer) {
      display: none !important;
    }
  
-   .hds-ui[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
+   .hds-grid[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-row:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-column:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="tablet only"].hds-column:not(.hds-computer) {
      display: none !important;
    }
  
-   .hds-ui[class*="large screen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="large screen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="large screen only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="large screen only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="large screen only"].hds-column:not(.hds-mobile) {
      display: none !important;
    }
  
-   .hds-ui[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="widescreen only"].hds-column:not(.hds-mobile) {
@@ -16181,21 +16195,21 @@
  /* Large Screen Only Hide */
  
  @media only screen and (min-width: 1200px) and (max-width: 1919px) {
-   .hds-ui[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
+   .hds-grid[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-row:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-column:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="mobile only"].hds-column:not(.hds-computer) {
      display: none !important;
    }
  
-   .hds-ui[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
+   .hds-grid[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-row:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-column:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="tablet only"].hds-column:not(.hds-computer) {
      display: none !important;
    }
  
-   .hds-ui[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
+   .hds-grid[class*="widescreen only"].hds-grid.hds-grid.hds-grid:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-row:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > [class*="widescreen only"].hds-column:not(.hds-mobile),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="widescreen only"].hds-column:not(.hds-mobile) {
@@ -16206,14 +16220,14 @@
  /* Widescreen Only Hide */
  
  @media only screen and (min-width: 1920px) {
-   .hds-ui[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
+   .hds-grid[class*="mobile only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-row:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="mobile only"].hds-column:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="mobile only"].hds-column:not(.hds-computer) {
      display: none !important;
    }
  
-   .hds-ui[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
+   .hds-grid[class*="tablet only"].hds-grid.hds-grid.hds-grid:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-row:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > [class*="tablet only"].hds-column:not(.hds-computer),
    .hds-grid.hds-grid.hds-grid > .hds-row > [class*="tablet only"].hds-column:not(.hds-computer) {
@@ -16229,13 +16243,13 @@
           Site Overrides
  *******************************/
  /*
-  * # Semantic - Menu
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style - Menu
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Copyright 2015 Contributor
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -16752,7 +16766,7 @@
  /* Right Floated */
  
  .hds-menu:not(.hds-vertical) .hds-right.hds-item,
- .hds-menu:not(.hds-vertical) .hds-right.hds-menu {
+ .hds-menu:not(.hds-vertical) .hds-right-menu {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -16762,7 +16776,7 @@
  /* Swapped Borders */
  
  .hds-menu .hds-right.hds-item::before,
- .hds-menu .hds-right.hds-menu > .hds-item::before {
+ .hds-menu .hds-right-menu > .hds-item::before {
    right: auto;
    left: 0;
  }
@@ -16951,7 +16965,7 @@
    width: 100%;
  }
  
- .hds-top.hds-attached.hds-segment + .hds-bottom.hds-tabular.hds-menu {
+ .hds-top-attached.hds-segment + .hds-bottom.hds-tabular.hds-menu {
    position: relative;
    width: calc(100% +  2px );
    left: -1px;
@@ -17654,12 +17668,12 @@
      margin-right: 0 !important;
    }
  
-   .hds-stackable.hds-menu .hds-right.hds-menu,
+   .hds-stackable.hds-menu .hds-right-menu,
    .hds-stackable.hds-menu .hds-right.hds-item {
      margin-left: 0 !important;
    }
  
-   .hds-stackable.hds-menu .hds-right.hds-menu,
+   .hds-stackable.hds-menu .hds-right-menu,
    .hds-stackable.hds-menu .hds-left.hds-menu {
      -webkit-box-orient: vertical;
      -webkit-box-direction: normal;
@@ -18378,7 +18392,7 @@
  
  /* Top */
  
- .hds-ui[class*="top attached"].hds-menu {
+ .hds-meun[class*="hds-top-attached"] {
    bottom: 0px;
    margin-bottom: 0em;
    top: 0px;
@@ -18386,13 +18400,13 @@
    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
  }
  
- .hds-menu[class*="top attached"]:first-child {
+ .hds-menu[class*="hds-top-attached"]:first-child {
    margin-top: 0em;
  }
  
  /* Bottom */
  
- .hds-ui[class*="bottom attached"].hds-menu {
+ .hds-menu[class*="hds-bottom-attached"] {
    bottom: 0px;
    margin-top: 0em;
    top: 0px;
@@ -18402,17 +18416,17 @@
    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
  }
  
- .hds-ui[class*="bottom attached"].hds-menu:last-child {
+ .hds-hds[class*="hds-bottom-attached"]:last-child {
    margin-bottom: 0em;
  }
  
  /* Attached Menu Item */
  
- .hds-top.hds-attached.hds-menu > .hds-item:first-child {
+ .hds-top-attached.hds-menu > .hds-item:first-child {
    border-radius: 0.28571429rem 0em 0em 0em;
  }
  
- .hds-bottom.hds-attached.hds-menu > .hds-item:first-child {
+ .hds-bottom-attached.hds-menu > .hds-item:first-child {
    border-radius: 0em 0em 0em 0.28571429rem;
  }
  
@@ -18524,12 +18538,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Message
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Message
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -18740,14 +18754,14 @@
    border-radius: 0em;
  }
  
- .hds-bottom.hds-attached.hds-message {
+ .hds-bottom-attached.hds-message {
    margin-top: -1px;
    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
    -webkit-box-shadow: 0em 0em 0em 1px rgba(34, 36, 38, 0.15) inset, 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
    box-shadow: 0em 0em 0em 1px rgba(34, 36, 38, 0.15) inset, 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
  }
  
- .hds-bottom.hds-attached.hds-message:not(:last-child) {
+ .hds-bottom-attached.hds-message:not(:last-child) {
    margin-bottom: 1em;
  }
  
@@ -19094,12 +19108,12 @@
          Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Table
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Table
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -19730,7 +19744,7 @@
  
  /* Top */
  
- .hds-ui[class*="top attached"].hds-table {
+ .hds-table[class*="hds-top-attached"] {
    bottom: 0px;
    margin-bottom: 0em;
    top: 0px;
@@ -19738,13 +19752,13 @@
    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
  }
  
- .hds-table[class*="top attached"]:first-child {
+ .hds-table[class*="hds-top-attached"]:first-child {
    margin-top: 0em;
  }
  
  /* Bottom */
  
- .hds-ui[class*="bottom attached"].hds-table {
+ .hds-table[class*="hds-bottom-attached"] {
    bottom: 0px;
    margin-top: 0em;
    top: 0px;
@@ -19754,7 +19768,7 @@
    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
  }
  
- .hds-ui[class*="bottom attached"].hds-table:last-child {
+ .hds-table[class*="hds-bottom-attached"]:last-child {
    margin-bottom: 0em;
  }
  
@@ -20389,13 +20403,13 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Ad
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Ad
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Copyright 2013 Contributors
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -20678,12 +20692,12 @@
      User Variable Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Item
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Item
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -20898,18 +20912,18 @@
       Aligned
  ---------------*/
  
- .hds-cards > .hds-card [class*="left aligned"],
- .hds-card [class*="left aligned"] {
+ .hds-cards > .hds-card [class*="hds-left-aligned"],
+ .hds-card [class*="hds-left-aligned"] {
    text-align: left;
  }
  
- .hds-cards > .hds-card [class*="center aligned"],
- .hds-card [class*="center aligned"] {
+ .hds-cards > .hds-card [class*="hds-center-aligned"],
+ .hds-card [class*="hds-center-aligned"] {
    text-align: center;
  }
  
- .hds-cards > .hds-card [class*="right aligned"],
- .hds-card [class*="right aligned"] {
+ .hds-cards > .hds-card [class*="hds-right-aligned"],
+ .hds-card [class*="right-aligned"] {
    text-align: right;
  }
  
@@ -21427,111 +21441,111 @@
     Card Count
  ---------------*/
  
- .hds-one.hds-cards {
+ .hds-cards__1 {
    margin-left: 0em;
    margin-right: 0em;
  }
  
- .hds-one.hds-cards > .hds-card {
+ .hds-cards__1 > .hds-card {
    width: 100%;
  }
  
- .hds-two.hds-cards {
+ .hds-cards__2 {
    margin-left: -1em;
    margin-right: -1em;
  }
  
- .hds-two.hds-cards > .hds-card {
+ .hds-cards__2 > .hds-card {
    width: calc( 50%  -  2em );
    margin-left: 1em;
    margin-right: 1em;
  }
  
- .hds-three.hds-cards {
+ .hds-cards__3 {
    margin-left: -1em;
    margin-right: -1em;
  }
  
- .hds-three.hds-cards > .hds-card {
+ .hds-cards__3 > .hds-card {
    width: calc( 33.33333333%  -  2em );
    margin-left: 1em;
    margin-right: 1em;
  }
  
- .hds-four.hds-cards {
+ .hds-cards__4 {
    margin-left: -0.75em;
    margin-right: -0.75em;
  }
  
- .hds-four.hds-cards > .hds-card {
+ .hds-cards__4 > .hds-card {
    width: calc( 25%  -  1.5em );
    margin-left: 0.75em;
    margin-right: 0.75em;
  }
  
- .hds-five.hds-cards {
+ .hds-cards__5 {
    margin-left: -0.75em;
    margin-right: -0.75em;
  }
  
- .hds-five.hds-cards > .hds-card {
+ .hds-cards__5 > .hds-card {
    width: calc( 20%  -  1.5em );
    margin-left: 0.75em;
    margin-right: 0.75em;
  }
  
- .hds-six.hds-cards {
+ .hds-cards__6 {
    margin-left: -0.75em;
    margin-right: -0.75em;
  }
  
- .hds-six.hds-cards > .hds-card {
+ .hds-cards__6 > .hds-card {
    width: calc( 16.66666667%  -  1.5em );
    margin-left: 0.75em;
    margin-right: 0.75em;
  }
  
- .hds-seven.hds-cards {
+ .hds-cards__7 {
    margin-left: -0.5em;
    margin-right: -0.5em;
  }
  
- .hds-seven.hds-cards > .hds-card {
+ .hds-cards__7 > .hds-card {
    width: calc( 14.28571429%  -  1em );
    margin-left: 0.5em;
    margin-right: 0.5em;
  }
  
- .hds-eight.hds-cards {
+ .hds-cards__8 {
    margin-left: -0.5em;
    margin-right: -0.5em;
  }
  
- .hds-eight.hds-cards > .hds-card {
+ .hds-cards__8 > .hds-card {
    width: calc( 12.5%  -  1em );
    margin-left: 0.5em;
    margin-right: 0.5em;
    font-size: 11px;
  }
  
- .hds-nine.hds-cards {
+ .hds-cards__9 {
    margin-left: -0.5em;
    margin-right: -0.5em;
  }
  
- .hds-nine.hds-cards > .hds-card {
+ .hds-cards__9 > .hds-card {
    width: calc( 11.11111111%  -  1em );
    margin-left: 0.5em;
    margin-right: 0.5em;
    font-size: 10px;
  }
  
- .hds-ten.hds-cards {
+ .hds-cards__10 {
    margin-left: -0.5em;
    margin-right: -0.5em;
  }
  
- .hds-ten.hds-cards > .hds-card {
+ .hds-cards__10 > .hds-card {
    width: calc( 10%  -  1em );
    margin-left: 0.5em;
    margin-right: 0.5em;
@@ -21544,100 +21558,100 @@
  /* Mobile Only */
  
  @media only screen and (max-width: 767px) {
-   .hds-two.hds-doubling.hds-cards {
+   .hds-doubling-cards__2 {
      margin-left: 0em;
      margin-right: 0em;
    }
  
-   .hds-two.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__2 > .hds-card {
      width: 100%;
      margin-left: 0em;
      margin-right: 0em;
    }
  
-   .hds-three.hds-doubling.hds-cards {
+   .hds-doubling-cards__3 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-three.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__3 > .hds-card {
      width: calc( 50%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-four.hds-doubling.hds-cards {
+   .hds-doubling-cards__4 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-four.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__4 > .hds-card {
      width: calc( 50%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-five.hds-doubling.hds-cards {
+   .hds-doubling-cards__5 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-five.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__5 > .hds-card {
      width: calc( 50%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-six.hds-doubling.hds-cards {
+   .hds-doubling-cards__6 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-six.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__6 > .hds-card {
      width: calc( 50%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-seven.hds-doubling.hds-cards {
+   .hds-doubling-cards__7 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-seven.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__7 > .hds-card {
      width: calc( 33.33333333%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-eight.hds-doubling.hds-cards {
+   .hds-doubling-cards__8 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-eight.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__8 > .hds-card {
      width: calc( 33.33333333%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-nine.hds-doubling.hds-cards {
+   .hds-doubling-cards__9 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-nine.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__9 > .hds-card {
      width: calc( 33.33333333%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-ten.hds-doubling.hds-cards {
+   .hds-doubling-cards__10 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-ten.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__10 > .hds-card {
      width: calc( 33.33333333%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
@@ -21647,100 +21661,100 @@
  /* Tablet Only */
  
  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   .hds-two.hds-doubling.hds-cards {
+  .hds-doubling-cards__2 {
      margin-left: 0em;
      margin-right: 0em;
    }
  
-   .hds-two.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__2 > .hds-card {
      width: 100%;
      margin-left: 0em;
      margin-right: 0em;
    }
  
-   .hds-three.hds-doubling.hds-cards {
+   .hds-doubling-cards__3 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-three.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__3 > .hds-card {
      width: calc( 50%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-four.hds-doubling.hds-cards {
+   .hds-doubling-cards__4 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-four.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__14 > .hds-card {
      width: calc( 50%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-five.hds-doubling.hds-cards {
+   .hds-doubling-cards__5 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-five.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__5 > .hds-card {
      width: calc( 33.33333333%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-six.hds-doubling.hds-cards {
+   .hds-doubling-cards__6 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-six.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__6 > .hds-card {
      width: calc( 33.33333333%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-eight.hds-doubling.hds-cards {
+   .hds-doubling-cards__7 {
      margin-left: -1em;
      margin-right: -1em;
    }
  
-   .hds-eight.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__7 > .hds-card {
      width: calc( 33.33333333%  -  2em );
      margin-left: 1em;
      margin-right: 1em;
    }
  
-   .hds-eight.hds-doubling.hds-cards {
+   .hds-doubling-cards__8 {
      margin-left: -0.75em;
      margin-right: -0.75em;
    }
  
-   .hds-eight.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__8 > .hds-card {
      width: calc( 25%  -  1.5em );
      margin-left: 0.75em;
      margin-right: 0.75em;
    }
  
-   .hds-nine.hds-doubling.hds-cards {
+   .hds-doubling-cards__9 {
      margin-left: -0.75em;
      margin-right: -0.75em;
    }
  
-   .hds-nine.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__9 > .hds-card {
      width: calc( 25%  -  1.5em );
      margin-left: 0.75em;
      margin-right: 0.75em;
    }
  
-   .hds-ten.hds-doubling.hds-cards {
+   .hds-doubling-cards__10 {
      margin-left: -0.75em;
      margin-right: -0.75em;
    }
  
-   .hds-ten.hds-doubling.hds-cards > .hds-card {
+   .hds-doubling-cards__10 > .hds-card {
      width: calc( 20%  -  1.5em );
      margin-left: 0.75em;
      margin-right: 0.75em;
@@ -21785,12 +21799,12 @@
      User Variable Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Comment
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Comment
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -22071,12 +22085,12 @@
      User Variable Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Feed
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Feed
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -22384,12 +22398,12 @@
      User Variable Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Item
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Item
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -22905,12 +22919,12 @@
      User Variable Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Statistic
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Statistic
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -23537,12 +23551,12 @@
      User Variable Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Accordion
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Accordion
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -23724,12 +23738,12 @@
  /* Active */
  
  .hds-styled.hds-accordion .hds-active.hds-title {
-   background: transparent;
+   background-color: #5b7fa3;
    color: rgba(0, 0, 0, 0.95);
  }
  
  .hds-styled.hds-accordion .hds-accordion .hds-active.hds-title {
-   background: transparent;
+  background-color: #5b7fa3;
    color: rgba(0, 0, 0, 0.95);
  }
  
@@ -23800,12 +23814,12 @@
          User Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Checkbox
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Checkbox
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -24475,12 +24489,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Dimmer
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Dimmer
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -24679,11 +24693,11 @@
      Aligned
  ---------------*/
  
- .hds-dimmer > .hds-top.hds-aligned.hds-content > * {
+ .hds-dimmer > .hds-top-aligned.hds-content > * {
    vertical-align: top;
  }
  
- .hds-dimmer > .hds-bottom.hds-aligned.hds-content > * {
+ .hds-dimmer > .hds-bottom-aligned.hds-content > * {
    vertical-align: bottom;
  }
  
@@ -24740,12 +24754,12 @@
          User Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Dropdown
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Dropdown
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -25057,7 +25071,7 @@
  
  /* Automatically float dropdown menu right on last menu item */
  
- .hds-menu .hds-right.hds-menu .hds-dropdown:last-child .hds-menu,
+ .hds-menu .hds-right-menu .hds-dropdown:last-child .hds-menu,
  .hds-menu .hds-right.hds-dropdown.hds-item .hds-menu,
  .hds-buttons > .hds-dropdown:last-child .hds-menu {
    left: auto;
@@ -25809,8 +25823,8 @@
  
  /* Default Side (Right) */
  
- .hds-dropdown .hds-right.hds-menu > .hds-menu,
- .hds-dropdown .hds-menu .hds-right.hds-menu {
+ .hds-dropdown .hds-right-menu > .hds-menu,
+ .hds-dropdown .hds-menu .hds-right-menu {
    left: 100% !important;
    right: auto !important;
    border-radius: 0.28571429rem !important;
@@ -26398,12 +26412,12 @@
          User Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Video
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Video
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -26563,12 +26577,12 @@
    padding-bottom: 42.85714286%;
  }
  /*!
-  * # Semantic UI 2.4.0 - Modal
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Modal
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -26927,8 +26941,8 @@
  
  .hds-legacy.hds-page.hds-dimmer > .hds-scrolling.hds-modal,
  .hds-page.hds-dimmer > .hds-scrolling.hds-legacy.hds-modal,
- .hds-top.hds-aligned.hds-legacy.hds-page.hds-dimmer > .hds-modal,
- .hds-top.hds-aligned.hds-dimmer > .hds-legacy.hds-modal {
+ ..hds-top-aligned.hds-legacy.hds-page.hds-dimmer > .hds-modal,
+ ..hds-top-aligned.hds-dimmer > .hds-legacy.hds-modal {
    top: auto;
  }
  
@@ -27249,12 +27263,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Nag
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Nag
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -27395,12 +27409,12 @@
          User Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Popup
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Popup
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -28225,12 +28239,12 @@
          User Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Progress Bar
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Progress Bar
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -28594,13 +28608,13 @@
  
  /* top attached */
  
- .hds-progress.hds-top.hds-attached,
- .hds-progress.hds-top.hds-attached .hds-bar {
+ .hds-progress.hds-top-attached,
+ .hds-progress.hds-top-attached .hds-bar {
    top: 0px;
    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
  }
  
- .hds-progress.hds-top.hds-attached .hds-bar {
+ .hds-progress.hds-top-attached .hds-bar {
    border-radius: 0em;
  }
  
@@ -28615,8 +28629,8 @@
    width: 100%;
  }
  
- .hds-segment > .hds-bottom.hds-attached.hds-progress,
- .hds-card > .hds-bottom.hds-attached.hds-progress {
+ .hds-segment > .hds-bottom-attached.hds-progress,
+ .hds-card > .hds-bottom-attached.hds-progress {
    top: 100%;
    bottom: auto;
  }
@@ -28807,12 +28821,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Rating
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Rating
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -29084,12 +29098,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Search
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Search
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -29556,12 +29570,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Shape
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Shape
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -29716,12 +29730,12 @@
          User Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Sidebar
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Sidebar
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -30401,12 +30415,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Sticky
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Sticky
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -30475,12 +30489,12 @@
           Site Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Tab
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Tab
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
@@ -30563,12 +30577,12 @@
          User Overrides
  *******************************/
  /*!
-  * # Semantic UI 2.4.0 - Transition
-  * http://github.hds-com/semantic-org/semantic-ui/
+  * # Haasts Style UI 2.4.0 - Transition
+  * http://github.hds-com/Haasts Style/Haasts style/
   *
   *
   * Released under the MIT license
-  * http://opensource.hds-org/licenses/MIT
+  * http://opensource.hds/licenses/MIT
   *
   */
  
